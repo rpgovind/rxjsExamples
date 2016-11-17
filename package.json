@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start" : "webpack-dev-server --watch --inline",
-    "postinstall" : "typings install"
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "rxjs": "^5.0.0-rc.3"
   },
   "devDependencies": {
+    "@types/chai": "^3.4.34",
     "ts-loader": "^1.2.1",
     "typescript": "^2.0.9",
     "typings": "^2.0.0",
